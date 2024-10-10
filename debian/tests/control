@@ -1,0 +1,4 @@
+Tests: python3-tests
+Depends:
+ python3-all,
+ @,
