@@ -1,3 +1,10 @@
+python-absl (2.1.0-deepin1) unstable; urgency=medium
+
+   * Team upload.
+   * Init Deepin repo
+
+ -- bocchi810 <bocchi810@gmail.com>  Wed, 16 Oct 2024 20:06:46 +0800
+
 python-absl (2.1.0-1) unstable; urgency=medium
 
   * Team upload.
