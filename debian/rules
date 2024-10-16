@@ -2,3 +2,5 @@
 
 %:
 	dh $@ --buildsystem=pybuild
+	rm -rf .pybuild
+	rm -rf absl_py.egg-info
