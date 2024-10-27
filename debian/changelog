@@ -1,5 +1,72 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-absl (2.1.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 2.1.0
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alexandre Detiste <tchet@debian.org>  Mon, 05 Feb 2024 21:56:15 +0100
+
+python-absl (2.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 2.0.0 (Closes: #1053971)
+  * fix watchfile for v2.0
+  * remove dependency on python3-six
+  * CHANGELOG.md is now at expected location, remove extraneous d/rule
+  * update debian/copyright: vendored lib "unittest3" is gone
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Alexandre Detiste <tchet@debian.org>  Fri, 05 Jan 2024 12:35:06 +0100
+
+python-absl (0.15.0-2) unstable; urgency=medium
+
+  * Update metadata
+  * gbp.conf: remove unused dfsg/latest branch
+
+ -- Agathe Porte <debian@microjoe.org>  Sat, 10 Sep 2022 15:34:02 +0200
+
+python-absl (0.15.0-1) unstable; urgency=medium
+
+  [ Agathe Porte ]
+  * Introduce autopkgtests
+  * New upstream version 0.15.0
+
+  [ Jeroen Ploemen ]
+  * Control: bump Standards-Version to 4.6.0 (from 4.5.1; no further
+    changes).
+
+ -- Agathe Porte <debian@microjoe.org>  Thu, 21 Oct 2021 08:58:39 +0000
+
+python-absl (0.13.0-1) unstable; urgency=medium
+
+  * New upstream version 0.13.0
+
+ -- Agathe Porte <debian@microjoe.org>  Sun, 25 Jul 2021 21:44:51 +0200
+
+python-absl (0.12.0-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Agathe Porte ]
+  * Introduce autopkgtest via autopkgtest-pkg-python.
+
+  [ Mattia Rizzolo ]
+  * Build-Depend on dh-sequence-python3 instead of using "--with python3"
+
+ -- Mattia Rizzolo <mattia@debian.org>  Mon, 19 Apr 2021 14:02:52 +0200
+
+python-absl (0.12.0-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #987152)
+  * d/control:
+    + Drop unnecessary Build-Depends on python3-setuptools-scm.
+    + Longer Description.
+
+ -- Arturo Borrero Gonzalez <arturo@debian.org>  Sun, 18 Apr 2021 15:25:58 +0200
+
+python-absl (0.11.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #975675)
+
+ -- Agathe Porte <debian@microjoe.org>  Sun, 20 Dec 2020 18:26:10 +0100

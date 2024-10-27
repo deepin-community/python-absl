@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -euo pipefail
+
+cp -a smoke_tests $AUTOPKGTEST_TMP
+cd $AUTOPKGTEST_TMP
+
+for p in $(py3versions -s); do
+    "${p}" smoke_tests/sample_app.py --echo smoke 2>&1 |grep 'echo is smoke.'
+    "${p}" smoke_tests/sample_test.py 2>&1 | grep 'msg_for_test'
+done
